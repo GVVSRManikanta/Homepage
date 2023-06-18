@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ethno Furniture</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet'>
+</head>
+<body>
+  <header>
+    <div class="top-padding">
+      <div class="side-menu">
+        <span class="menu-symbol">&#9776;</span>
+        <img src="images/Logo.png" alt="Ethno Logo">
+      </div>
+      <div class="container">
+        <div class="row">    
+         <div class="col-xs-8 col-xs-offset-2">
+          <div class="input-group">
+           <div class="input-group-btn search-panel">
+           </div>
+           <input type="hidden" name="search_param" value="all" id="search_param">
+           <input type="text" class="form-control" name="x" id="search" placeholder="Search..." style="height: 50px; width: 457px; left: 527px; top: 60px; border-radius: 12px; border: none;">
+            <span class="input-group-btn">
+        </button>
+         </span>
+          </div>
+         </div>
+        </div>
+      </div>
+      <div class="right-section">
+<button href="#" type="submit" class="login" style="border-radius: 8px; padding: 18px 44px;">Login</button>
+<span class="wishlist-symbol" style="font-size: 35px;">&#9825;</span>
+<span class="cart-symbol" style="font-size: 30px;">&#128722;</span>
+      </div>
+    </div>
+    <div class="bottom-padding">
+      <div class="topnav">
+  <a  href="https://www.youtube.com/">All</a>
+  <a href="https://www.youtube.com/">Chairs</a>
+  <a href="https://www.youtube.com/">Dining</a>
+  <a href="https://www.youtube.com/">Decor</a>
+   <a href="https://www.youtube.com/">Wardrobe</a>
+     <a href="https://www.youtube.com/">Home Utility</a>
+        <div class="right-icons">
+    <a href="#"><i class="fas fa-map-marker-alt"></i> ADD ADDRESS</a>
+    <a href="#"><i class="fas fa-language"></i> SELECT LANGUAGE</a>
+  </div>
+        
+  </div>
+     </div>
+      <div class="address-section">
+       
+      </div>
+    </div>
+  </header>
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Untitled-4 3.png" style="width:100%">
+      <div class="text">
+        <p>
+          Embrace Indian ethnic furniture<br>Timeless tradition, enduring<br>elegance.
+        </p>
+        <h4>Summer sale is on 30-50% off </h4>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Untitled-2 4.png" style="width:100%">
+      <div class="text">
+        <p>
+          Experience pure relaxation: Discover<br>the essence of serenity with our inviting<br>Woods. Collection of 500+.
+        </p>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="images/Untitled-6 2.png" style="width:100%">
+      <div class="text">
+        <p>
+          Nature's Finest: Exquisite furniture<br>crafted from natural wood and bamboo.<br>Up to 50% off.
+        </p>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</body>
+</html>
+
+<script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  
+</script>
+
+<!-- <-----Deals of the day-----> 
+<div class="layout">
+            <h2>Deals of the day</h2>
+        
+            <div class="product">
+                <div class="product1">
+                    <div class="img-cover">
+                        <img src="images/wood1.png" alt="">
+                    </div >
+                    <p class="t1">Wood Chair In Multicolor & & Ho.....</p>
+                    <div class="price">
+                        <div class="p1">
+                            ₹4000
+                        </div>
+                        <div class="p2">
+                            ₹4500</div>
+                    </div>
+                    <div class="review">
+                        <div class="reviewstars">
+                            <div class="rating">
+                                <img src="images/Star 1.png"class="bx bxs-star"></img>
+                                <img src="images/Star 2.png"class="bx bxs-star"></img>
+                                <img src="images/Star 3.png"class="bx bxs-star"></img>
+                                <img src="images/Star 4.png"class="bx bxs-star"></img>
+                                <img src="images/Star 5.png"class="bx bxs-star"></img>
+                            
+                            </div>
+                        <p>(116 reviews)</p>
+                        </div>
+                    </div>
+                    <div class="wish">
+                        <img src="images/Vector.png"></img>
+                    </div>
+                </div>
+                <div class="product2">
+                    <div class="img-cover">
+                        <img src="images/wood2.png" alt="">
+                    </div >
+                    <p class="t1">Wood Chair In Multicolor & & Ho.....</p>
+                    <div class="price">
+                        <div class="p1">
+                            ₹4000
+                        </div>
+                        <div class="p2">
+                            ₹4500</div>
+                    </div>
+                    <div class="review">
+                        <div class="reviewstars">
+                            <div class="rating">
+                                <img src="images/Star 1.png"class="bx bxs-star"></img>
+                                <img src="images/Star 2.png"class="bx bxs-star"></img>
+                                <img src="images/Star 3.png"class="bx bxs-star"></img>
+                                <img src="images/Star 4.png"class="bx bxs-star"></img>
+                                <img src="images/Star 5.png"class="bx bxs-star"></img>
+                            
+                            </div>
+                        <p>(116 reviews)</p>
+                        </div>
+                    </div>
+                    <div class="wish">
+                        <img src="images/Vector.png"></img>
+                    </div>
+                </div>
+                <div class="product3">
+                    <div class="img-cover">
+                        <img src="images/wood3.png" alt="">
+                    </div >
+                    <p class="t1">Wood Chair In Multicolor & & Ho.....</p>
+                    <div class="price">
+                        <div class="p1">
+                            ₹4000
+                        </div>
+                        <div class="p2">
+                            ₹4500</div>
+                    </div>
+                    <div class="review">
+                        <div class="reviewstars">
+                            <div class="rating">
+                                <img src="images/Star 1.png"class="bx bxs-star"></img>
+                                <img src="images/Star 2.png"class="bx bxs-star"></img>
+                                <img src="images/Star 3.png"class="bx bxs-star"></img>
+                                <img src="images/Star 4.png"class="bx bxs-star"></img>
+                                <img src="images/Star 5.png"class="bx bxs-star"></img>
+                            
+                            </div>
+                        <p>(116 reviews)</p>
+                        </div>
+                    </div>
+                    <div class="wish">
+                        <img src="images/Vector.png"></img>
+                    </div>
+                </div>
+                <div class="product4">
+                    <div class="img-cover">
+                        <img src="images/wood4.png" alt="">
+                    </div >
+                    <p class="t1">Wood Chair In Multicolor & & Ho.....</p>
+                    <div class="price">
+                        <div class="p1">
+                            ₹4000
+                        </div>
+                        <div class="p2">
+                            ₹4500</div>
+                    </div>
+                    <div class="review">
+                        <div class="reviewstars">
+                            <div class="rating">
+                                <img src="images/Star 1.png"class="bx bxs-star"></img>
+                                <img src="images/Star 2.png"class="bx bxs-star"></img>
+                                <img src="images/Star 3.png"class="bx bxs-star"></img>
+                                <img src="images/Star 4.png"class="bx bxs-star"></img>
+                                <img src="images/Star 5.png"class="bx bxs-star"></img>
+                            
+                            </div>
+                        <p>(116 reviews)</p>
+                        </div>
+                    </div>
+                    <div class="wish">
+                        <img src="images/Vector.png"></img>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+<!-- New Arrivals -->
